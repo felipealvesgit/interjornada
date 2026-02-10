@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 
-st.title("📂 Processamento de Interjornada em Lote")
+st.title("📂 Public Cloud Interjornada em Lote")
 
 # Upload do arquivo
 uploaded_file = st.file_uploader("Suba sua planilha de ponto (Excel ou CSV)", type=["xlsx", "csv"])
